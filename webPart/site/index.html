@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tigranFTP</title>
+    <link rel="icon" href="src/img/ftp_tab_logo.jpg">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="src/vendor/aos/aos.css" rel="stylesheet">
+    <link href="src/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="src/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="src/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="src/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="src/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" style="background-color: black">
+    <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto"><a href="index.html">tigranFTP | todo-list</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+            <a class="getstarted scrollto" id="login" href="login.html">Login</a>
+            <i class="getstarted scrollto" id="username" href="login.html" hidden>Username</i>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<div  style="display: flex;
+  align-items: flex-start;" >
+
+    <table id="main_table" class="table" style="width: 50%;" hidden>
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Done</th>
+            <th scope="col">Task Name</th>
+            <th scope="col">Description</th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody id="table_body">
+
+        </tbody>
+
+    </table>
+
+
+    <form id="addTaskForm" class="row g-3" style="width: 50%;" hidden>
+        <h1>ADD TASK:</h1>
+        <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Task Name</label>
+            <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Description</label>
+            <input type="text" class="form-control" id="validationDefault02" required>
+        </div>
+
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Add task</button>
+        </div>
+    </form>
+</div>
+<script src="src/js/utils.js"></script>
+<script src="src/js/default.js"></script>
+<script src="src/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tigranFTP</title>
+    <link rel="icon" href="src/img/ftp_tab_logo.jpg">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="src/vendor/aos/aos.css" rel="stylesheet">
+    <link href="src/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="src/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="src/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="src/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="src/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+<body>
+<script src="src/js/utils.js"></script>
+<script src="src/js/default.js"></script>
+<!-- ======= Header ======= -->
+
+<!-- ======= Header ======= -->
+<header id="header"  style="background-color: black">
+    <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto"><a href="index.html">tigranFTP | todo-list</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+            <a class="getstarted scrollto" id="login" href="login.html">Login</a>
+            <i class="getstarted scrollto" id="username" href="login.html" hidden>Username</i>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+<form id="loginForm">
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <input id="usernameForm" class="form-control" />
+        <label class="form-label" for="usernameForm">Username</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+        <input type="password" id="passwordForm" class="form-control" />
+        <label class="form-label" for="passwordForm">Password</label>
+    </div>
+
+    <!-- 2 column grid layout for inline styling -->
+<!--    <div class="row mb-4">-->
+<!--        <div class="col d-flex justify-content-center">-->
+<!--            &lt;!&ndash; Checkbox &ndash;&gt;-->
+<!--            <div class="form-check">-->
+<!--                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />-->
+<!--                <label class="form-check-label" for="form2Example31"> Remember me </label>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="col">-->
+<!--            &lt;!&ndash; Simple link &ndash;&gt;-->
+<!--            <a href="#!">Forgot password?</a>-->
+<!--        </div>-->
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+    <!-- Register buttons -->
+    <div class="text-center">
+        <p>Not a member? <a href="register.html">Register</a></p>
+<!--        <p>or sign up with:</p>-->
+<!--        <button type="button" class="btn btn-link btn-floating mx-1">-->
+<!--            <i class="fab fa-facebook-f"></i>-->
+<!--        </button>-->
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-google"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-github"></i>
+        </button>
+    </div>
+</form>
+
+<script src="src/js/login.js">
+
+</script>
+</body>
+</html>
